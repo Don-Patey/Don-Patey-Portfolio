@@ -12,7 +12,7 @@ This is a web application made from scratch to showcase myself, my work and cont
 
 #### Links
 
-[Deployed Link](https://don-patey.github.io/)
+[Deployed Link](https://don-patey.github.io/Don-Patey-Portfolio/)
 
 [Repository Link](https://github.com/Don-Patey/my-page)
 
