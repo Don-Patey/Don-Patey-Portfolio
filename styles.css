@@ -75,7 +75,7 @@ section {
   justify-content: space-between;
   gap: 30px;
   background-image: url(Images/4B6D5BC7-DB4C-4863-9992-44CB0777E5DC_1_105_c.jpeg);
-  background-image: cover;
+  background-image: contain;
 }
 .content-text span {
   color: #f9004d;
@@ -85,37 +85,42 @@ h1 {
   color: white;
   margin: 20px 0 20px;
   font-size: 75px;
+  margin-bottom: 0px;
 }
 
 h3 {
   color: white;
   font-size: 25;
-  margin-bottom: 50px;
+  margin-top: 10px;
+  align-content: center;
 }
 
 h4 {
   color: #fcfc;
   letter-spacing: 2px;
   font-size: 20px;
+  margin-top: 0px;
 }
-.about-me img {
-  flex-wrap: wrap;
+
+.main img {
+  object-fit: contain;
+  margin-right: 100%;
+  height: auto;
+  width: 430px;
+}
+.about {
+  width: 100%;
+  padding: 100px 0px;
+  background-color: #191919;
 }
 
 .about-text {
   width: 550px;
-  margin-left: 250px;
-  align-items: flex-end;
-  border: 2px solid blue;
 }
 
-.about {
+.main {
   width: 1130px;
   max-width: 95%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
   border: 2px solid red;
 }
 
@@ -125,7 +130,6 @@ h4 {
   text-transform: capitalize;
   margin-bottom: 20px;
 }
-
 .about-text h5 {
   color: white;
   letter-spacing: 2px;
@@ -141,30 +145,11 @@ h4 {
   font-size: 18px;
   margin-bottom: 45px;
 }
-
-button {
-  background-color: #f9004d;
-  color: white;
-  text-decoration: none;
-  border: 2px solid transparent;
-  font-weight: bold;
-  padding: 13px 30px;
-  border-radius: 30px;
-  transition: 0.4s;
-}
-
-button:hover {
-  background-color: transparent;
-  border: 2px solid #f9004d;
-  cursor: pointer;
-}
-
-.project {
+.projects {
   background: #101010;
   width: 100%;
   padding: 100px 0px;
 }
-
 .title h2 {
   color: white;
   font-size: 75px;
@@ -173,21 +158,11 @@ button:hover {
   text-align: center;
 }
 
-.container {
+.box {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
   min-height: 400px;
-}
-
-.card-1 {
-  height: 365px;
-  width: 100%;
-  padding: 20px 35px;
-  background: #191919;
-  border-radius: 20px;
-  margin: 15px;
-  overflow: hidden;
-  text-align: center;
 }
 
 .card {
@@ -202,15 +177,6 @@ button:hover {
   text-align: center;
 }
 
-.card:hover {
-  background-color: #858585;
-  cursor: pointer;
-}
-
-.card-1:hover {
-  background-color: #858585;
-  cursor: pointer;
-}
 .card i {
   font-size: 50px;
   display: block;
@@ -220,7 +186,7 @@ button:hover {
 }
 
 h5 {
-  color: white;
+  color: #f9004d;
   font-size: 23px;
   margin-bottom: 15px;
 }
@@ -232,35 +198,7 @@ h5 {
   margin-bottom: 25px;
 }
 
-.contact-me {
-  width: 100%;
-  height: 290px;
-  background: #191919;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.contact-me p {
-  color: white;
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 25px;
-}
-
-.button-two {
-  background-color: #f9004d;
-  color: white;
-  text-decoration: none;
-  border: 2px solid transparent;
-  font-weight: bold;
-  padding: 13px 30px;
-  border-radius: 30px;
-  transition: 0.4s;
-}
-
-.button-two:hover {
+.card:hover {
+  background-color: gray;
   cursor: pointer;
-  background-color: #858585;
 }
